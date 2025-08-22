@@ -8,25 +8,25 @@ const Hero = () => {
         <div className="animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-3 py-1 rounded-full text-sm mb-6">
             <MapPin className="w-4 h-4" />
-            Serving the Baltics
+            Kalpojam Baltijas valstīs
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-            Technology Integration
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> Simplified</span>
+            Tehnoloģiju integrācija
+            <span className="bg-gradient-primary bg-clip-text text-transparent"> vienkāršota</span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            We map, analyze, and optimize your systems and processes. Finding the right software and hardware solutions for government organizations across the Baltic region.
+            Mēs kartējam, analizējam un optimizējam jūsu sistēmas un procesus. Atrodam piemērotas programmatūras un aparatūras risinājumus valsts pārvaldes organizācijām visā Baltijas reģionā.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-              Get Started
+              Sākt darbu
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
             <Button variant="outline" size="lg">
-              View Our Work
+              Apskatīt mūsu darbus
             </Button>
           </div>
         </div>

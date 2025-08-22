@@ -6,21 +6,21 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-primary rounded-lg"></div>
-          <span className="text-xl font-bold text-foreground">TechIntegra</span>
+          <span className="text-xl font-bold text-foreground">Datu Servisi</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#services" className="text-muted-foreground hover:text-foreground transition-colors">
-            Services
+            Pakalpojumi
           </a>
           <a href="#experience" className="text-muted-foreground hover:text-foreground transition-colors">
-            Experience
+            Pieredze
           </a>
           <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
-            About
+            Par mums
           </a>
           <Button variant="outline" size="sm">
-            Contact Us
+            Sazināties
           </Button>
         </nav>
       </div>

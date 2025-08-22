@@ -4,23 +4,23 @@ import { Search, Map, Cog, Building2 } from "lucide-react";
 const services = [
   {
     icon: Map,
-    title: "System Mapping",
-    description: "Comprehensive analysis and visualization of your existing technology infrastructure and business processes."
+    title: "Sistēmu kartēšana",
+    description: "Visaptveroša jūsu esošās tehnoloģiju infrastruktūras un biznesa procesu analīze un vizualizācija."
   },
   {
     icon: Search,
-    title: "Solution Discovery",
-    description: "Identification of optimal software and hardware solutions tailored to your specific government sector needs."
+    title: "Risinājumu izpēte",
+    description: "Optimālu programmatūras un aparatūras risinājumu identificēšana, kas pielāgoti jūsu specifiskajām valsts sektora vajadzībām."
   },
   {
     icon: Cog,
-    title: "Process Optimization",
-    description: "Streamlining workflows and enhancing efficiency through strategic technology integration."
+    title: "Procesu optimizācija",
+    description: "Darba plūsmu racionalizēšana un efektivitātes uzlabošana ar stratēģisku tehnoloģiju integrāciju."
   },
   {
     icon: Building2,
-    title: "Implementation Support",
-    description: "End-to-end support for deploying and integrating solutions within government organizations."
+    title: "Ieviešanas atbalsts",
+    description: "Pilna cikla atbalsts risinājumu izvietošanai un integrācijai valsts pārvaldes organizācijās."
   }
 ];
 
@@ -29,9 +29,9 @@ const Services = () => {
     <section id="services" className="py-20 px-6 bg-background">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Our Services</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Mūsu pakalpojumi</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Specialized technology integration services designed for the public sector
+            Specializēti tehnoloģiju integrācijas pakalpojumi, kas paredzēti publiskajam sektoram
           </p>
         </div>
         

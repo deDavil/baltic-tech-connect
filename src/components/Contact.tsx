@@ -7,9 +7,9 @@ const Contact = () => {
     <section className="py-20 px-6 bg-gradient-subtle">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Get In Touch</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Sazināties ar mums</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to optimize your government technology systems? Let's discuss your project.
+            Gatavi optimizēt savas valdības tehnoloģiju sistēmas? Apspriedīsim jūsu projektu.
           </p>
         </div>
         
@@ -19,14 +19,14 @@ const Contact = () => {
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-6 h-6 text-accent" />
               </div>
-              <CardTitle className="text-lg">Email Us</CardTitle>
+              <CardTitle className="text-lg">Sūtīt e-pastu</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">
-                Get in touch for project inquiries
+                Sazinieties par projektu pieprasījumiem
               </p>
               <p className="text-accent font-medium">
-                contact@techintegra.eu
+                kontakti@datuservisi.lv
               </p>
             </CardContent>
           </Card>
@@ -36,14 +36,14 @@ const Contact = () => {
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Phone className="w-6 h-6 text-accent" />
               </div>
-              <CardTitle className="text-lg">Call Us</CardTitle>
+              <CardTitle className="text-lg">Zvanīt mums</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">
-                Speak directly with our experts
+                Runājiet tieši ar mūsu ekspertiem
               </p>
               <p className="text-accent font-medium">
-                +372 5000 0000
+                +371 2000 0000
               </p>
             </CardContent>
           </Card>
@@ -53,14 +53,14 @@ const Contact = () => {
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <MapPin className="w-6 h-6 text-accent" />
               </div>
-              <CardTitle className="text-lg">Visit Us</CardTitle>
+              <CardTitle className="text-lg">Apmeklēt mūs</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">
-                Meet us in person
+                Tiksimies klātienē
               </p>
               <p className="text-accent font-medium">
-                Tallinn, Estonia
+                Rīga, Latvija
               </p>
             </CardContent>
           </Card>
@@ -68,7 +68,7 @@ const Contact = () => {
         
         <div className="text-center mt-12">
           <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-            Start Your Project
+            Sākt savu projektu
             <ArrowRight className="ml-2 w-4 h-4" />
           </Button>
         </div>

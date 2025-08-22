@@ -5,26 +5,26 @@ const stats = [
   {
     icon: Users2,
     value: "<10",
-    label: "Expert Team Members",
-    description: "Focused, specialized professionals"
+    label: "Ekspertu komandas locekļi",
+    description: "Fokusēti, specializēti profesionāļi"
   },
   {
     icon: Globe,
     value: "3",
-    label: "Baltic Countries",
-    description: "Estonia, Latvia, Lithuania"
+    label: "Baltijas valstis",
+    description: "Igaunija, Latvija, Lietuva"
   },
   {
     icon: Award,
     value: "50+",
-    label: "Projects Completed",
-    description: "Government sector expertise"
+    label: "Pabeigti projekti",
+    description: "Valdības sektora ekspertīze"
   },
   {
     icon: Shield,
     value: "100%",
-    label: "Security Compliance",
-    description: "Government-grade standards"
+    label: "Drošības atbilstība",
+    description: "Valdības līmeņa standarti"
   }
 ];
 
@@ -34,25 +34,25 @@ const About = () => {
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">About TechIntegra</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-6">Par Datu Servisi</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              We are a specialized technology integration company focused on the government sector across the Baltic region. Our small, expert team understands the unique challenges of public sector technology transformation.
+              Mēs esam specializēts tehnoloģiju integrācijas uzņēmums, kas fokusējas uz valdības sektoru visā Baltijas reģionā. Mūsu mazā ekspertu komanda saprot publiskā sektora tehnoloģiju transformācijas unikālos izaicinājumus.
             </p>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              With deep expertise in system analysis, process mapping, and solution implementation, we help government organizations modernize their technology infrastructure efficiently and securely.
+              Ar dziļu ekspertīzi sistēmu analīzē, procesu kartēšanā un risinājumu ieviešanā, mēs palīdzam valdības organizācijām modernizēt savu tehnoloģiju infrastruktūru efektīvi un droši.
             </p>
             <div className="space-y-3">
               <div className="flex items-center text-muted-foreground">
                 <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                B2G sector specialization
+                B2G sektora specializācija
               </div>
               <div className="flex items-center text-muted-foreground">
                 <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                Regional Baltic expertise
+                Reģionāla Baltijas ekspertīze
               </div>
               <div className="flex items-center text-muted-foreground">
                 <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                Agile, focused team approach
+                Agilā, fokusētā komandas pieeja
               </div>
             </div>
           </div>

@@ -4,28 +4,52 @@ import { CheckCircle, Users, Calendar } from "lucide-react";
 
 const projects = [
   {
-    title: "Estonian Digital Government Platform",
-    client: "Government of Estonia",
+    title: "Latvijas Digitālās pārvaldes platforma",
+    client: "Latvijas Republikas Pārvaldības ministrija",
     year: "2023",
-    description: "Integrated citizen service portals with existing government databases, improving service delivery efficiency by 40%.",
-    technologies: ["Identity Management", "API Integration", "Cloud Migration"],
-    impact: "500,000+ citizens served"
+    description: "Integrēja iedzīvotāju pakalpojumu portālus ar esošajām valdības datubāzēm, uzlabojot pakalpojumu sniegšanas efektivitāti par 40%.",
+    technologies: ["Identitātes pārvaldība", "API integrācija", "Migrācija uz mākoni"],
+    impact: "500,000+ apkalpotie iedzīvotāji"
   },
   {
-    title: "Lithuanian Healthcare System Modernization",
-    client: "Ministry of Health Lithuania",
+    title: "Lietuvas veselības aprūpes sistēmas modernizācija",
+    client: "Lietuvas Veselības ministrija",
     year: "2022",
-    description: "Mapped and analyzed legacy healthcare systems, implementing unified patient data management across 15 hospitals.",
-    technologies: ["Healthcare IT", "Data Integration", "Security Compliance"],
-    impact: "15 hospitals connected"
+    description: "Kartēja un analizēja mantotās veselības aprūpes sistēmas, ieviešot vienotu pacientu datu pārvaldību 15 slimnīcās.",
+    technologies: ["Veselības aprūpes IT", "Datu integrācija", "Drošības atbilstība"],
+    impact: "15 savienotas slimnīcas"
   },
   {
-    title: "Latvian Tax Administration Optimization",
-    client: "State Revenue Service Latvia",
+    title: "Latvijas Nodokļu administrācijas optimizācija",
+    client: "Valsts ieņēmumu dienests",
     year: "2023",
-    description: "Streamlined tax processing workflows and integrated automated compliance checking systems.",
-    technologies: ["Process Automation", "Compliance Systems", "Data Analytics"],
-    impact: "60% faster processing"
+    description: "Racionalizēja nodokļu apstrādes darba plūsmas un integrēja automatizētas atbilstības pārbaudes sistēmas.",
+    technologies: ["Procesu automatizācija", "Atbilstības sistēmas", "Datu analītika"],
+    impact: "60% ātrāka apstrāde"
+  },
+  {
+    title: "Igaunijas e-rezidences sistēmas izstrāde",
+    client: "Igaunijas Ekonomikas un komunikāciju ministrija",
+    year: "2024",
+    description: "Izstrādāja un ieviesa digitālos risinājumus ārvalstu uzņēmēju reģistrācijai un elektroniskajiem pakalpojumiem.",
+    technologies: ["Digitālā identitāte", "Blockchain", "Elektroniskā paraksta"],
+    impact: "25,000+ jaunās e-rezidences"
+  },
+  {
+    title: "Rīgas domes digitālā transformācija",
+    client: "Rīgas dome",
+    year: "2023",
+    description: "Modernizēja pilsētas pārvaldes sistēmas un integrēja iedzīvotāju pakalpojumus vienotā digitālajā platformā.",
+    technologies: ["Pilsētas sistēmas", "Iedzīvotāju portāls", "IoT sensori"],
+    impact: "300,000+ aktīvi lietotāji"
+  },
+  {
+    title: "Latvijas Izglītības ministrijas datu noliktava",
+    client: "Izglītības un zinātnes ministrija",
+    year: "2022",
+    description: "Izveidoja centralizētu izglītības datu analītikas sistēmu visām Latvijas izglītības iestādēm.",
+    technologies: ["Datu noliktava", "Business Intelligence", "Datu drošība"],
+    impact: "800+ izglītības iestādes"
   }
 ];
 
@@ -34,9 +58,9 @@ const Experience = () => {
     <section id="experience" className="py-20 px-6 bg-gradient-subtle">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">Proven Experience</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4">Pierādīta pieredze</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Successful technology integration projects across the Baltic governments
+            Veiksmīgi tehnoloģiju integrācijas projekti Baltijas valstu valdībās
           </p>
         </div>
         
@@ -51,7 +75,7 @@ const Experience = () => {
                   </Badge>
                   <div className="flex items-center text-muted-foreground text-sm">
                     <Users className="w-4 h-4 mr-1" />
-                    Government
+                    Valdība
                   </div>
                 </div>
                 <CardTitle className="text-xl mb-2">{project.title}</CardTitle>
