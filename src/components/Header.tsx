@@ -19,9 +19,6 @@ const Header = () => {
           <a href="#about" className="text-muted-foreground hover:text-foreground transition-colors">
             Par mums
           </a>
-          <Button variant="outline" size="sm">
-            Sazināties
-          </Button>
         </nav>
       </div>
     </header>

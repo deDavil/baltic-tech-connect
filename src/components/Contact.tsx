@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { Mail, MapPin, ArrowRight } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <Card className="border-border text-center">
             <CardHeader>
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -27,23 +27,6 @@ const Contact = () => {
               </p>
               <p className="text-accent font-medium">
                 kontakti@datuservisi.lv
-              </p>
-            </CardContent>
-          </Card>
-          
-          <Card className="border-border text-center">
-            <CardHeader>
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <Phone className="w-6 h-6 text-accent" />
-              </div>
-              <CardTitle className="text-lg">Zvanīt mums</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground mb-4">
-                Runājiet tieši ar mūsu ekspertiem
-              </p>
-              <p className="text-accent font-medium">
-                +371 2000 0000
               </p>
             </CardContent>
           </Card>

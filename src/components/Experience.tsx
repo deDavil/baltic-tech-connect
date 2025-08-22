@@ -50,6 +50,22 @@ const projects = [
     description: "Izveidoja centralizētu izglītības datu analītikas sistēmu visām Latvijas izglītības iestādēm.",
     technologies: ["Datu noliktava", "Business Intelligence", "Datu drošība"],
     impact: "800+ izglītības iestādes"
+  },
+  {
+    title: "Lietuvas digitālā identitāte 2.0",
+    client: "Iekšlietu ministrija Lietuva",
+    year: "2025",
+    description: "Izstrādāja nākamās paaudzes digitālās identitātes sistēmu ar biometrisko autentifikāciju un blockchain verifikāciju.",
+    technologies: ["Biometrija", "Blockchain", "Kvantuma drošība"],
+    impact: "2.8M iedzīvotāju reģistrēti"
+  },
+  {
+    title: "Baltijas vienotā datu apmaiņas platforma",
+    client: "ES Digitālā Eiropa programma",
+    year: "2025",
+    description: "Izveidoja starptautisko datu apmaiņas infrastruktūru starp Baltijas valstu valdību sistēmām ar vienotu API standaru.",
+    technologies: ["API Gateway", "Datu standarti", "Starpvalstu integrācija"],
+    impact: "3 valstis savienotas"
   }
 ];
 
