@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="max-w-md mx-auto">
           <Card className="border-border text-center">
             <CardHeader>
               <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -27,23 +27,6 @@ const Contact = () => {
               </p>
               <p className="text-accent font-medium">
                 kontakti@datuservisi.lv
-              </p>
-            </CardContent>
-          </Card>
-          
-          <Card className="border-border text-center">
-            <CardHeader>
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <MapPin className="w-6 h-6 text-accent" />
-              </div>
-              <CardTitle className="text-lg">Apmeklēt mūs</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground mb-4">
-                Tiksimies klātienē
-              </p>
-              <p className="text-accent font-medium">
-                Rīga, Latvija
               </p>
             </CardContent>
           </Card>
