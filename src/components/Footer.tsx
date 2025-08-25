@@ -14,9 +14,7 @@ const Footer = () => {
           </p>
         </div>
         
-        <Separator className="my-8" />
-        
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center mt-8">
           <p className="text-muted-foreground text-sm">
             © 2025 Datu Servisi. Visas tiesības aizsargātas.
           </p>
