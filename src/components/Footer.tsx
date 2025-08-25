@@ -19,8 +19,8 @@ const Footer = () => {
             © 2025 Datu Servisi. Visas tiesības aizsargātas.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground mt-4 md:mt-0">
-            <a href="#" className="hover:text-foreground transition-colors">Privātuma politika</a>
-            <a href="#" className="hover:text-foreground transition-colors">Pakalpojumu noteikumi</a>
+            <a href="/privatuma-politika" className="hover:text-foreground transition-colors">Privātuma politika</a>
+            <a href="/pakalpojumu-noteikumi" className="hover:text-foreground transition-colors">Pakalpojumu noteikumi</a>
           </div>
         </div>
       </div>
