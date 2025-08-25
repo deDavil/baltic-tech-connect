@@ -49,12 +49,6 @@ const Contact = () => {
           </Card>
         </div>
         
-        <div className="text-center mt-12">
-          <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-            Sākt savu projektu
-            <ArrowRight className="ml-2 w-4 h-4" />
-          </Button>
-        </div>
       </div>
     </section>
   );

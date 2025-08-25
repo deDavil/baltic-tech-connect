@@ -20,15 +20,6 @@ const Hero = () => {
             Mēs kartējam, analizējam un optimizējam jūsu sistēmas un procesus. Atrodam piemērotas programmatūras un aparatūras risinājumus valsts pārvaldes organizācijām visā Baltijas reģionā.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gradient-primary hover:opacity-90 transition-opacity">
-              Sākt darbu
-              <ArrowRight className="ml-2 w-4 h-4" />
-            </Button>
-            <Button variant="outline" size="lg">
-              Apskatīt mūsu darbus
-            </Button>
-          </div>
         </div>
       </div>
     </section>
