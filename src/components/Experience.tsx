@@ -7,65 +7,65 @@ const projects = [
     title: "Latvijas Digitālās pārvaldes platforma",
     client: "Latvijas Republikas Pārvaldības ministrija",
     year: "2023",
-    description: "Integrēja iedzīvotāju pakalpojumu portālus ar esošajām valdības datubāzēm, uzlabojot pakalpojumu sniegšanas efektivitāti par 40%.",
+    description: "Veicināja iedzīvotāju pakalpojumu portālu integrāciju ar esošajām valdības datubāzēm, uzlabojot pakalpojumu pieejamību.",
     technologies: ["Identitātes pārvaldība", "API integrācija", "Migrācija uz mākoni"],
-    impact: "500,000+ apkalpotie iedzīvotāji"
+    impact: "15,000+ lietotāji mēnesī"
   },
   {
     title: "Lietuvas veselības aprūpes sistēmas modernizācija",
     client: "Lietuvas Veselības ministrija",
     year: "2022",
-    description: "Kartēja un analizēja mantotās veselības aprūpes sistēmas, ieviešot vienotu pacientu datu pārvaldību 15 slimnīcās.",
+    description: "Kartēja un analizēja mantotās veselības aprūpes sistēmas, ieviešot vienotu pacientu datu pārvaldību 3 slimnīcās.",
     technologies: ["Veselības aprūpes IT", "Datu integrācija", "Drošības atbilstība"],
-    impact: "15 savienotas slimnīcas"
+    impact: "3 savienotas slimnīcas"
   },
   {
     title: "Latvijas Nodokļu administrācijas optimizācija",
     client: "Valsts ieņēmumu dienests",
     year: "2023",
-    description: "Racionalizēja nodokļu apstrādes darba plūsmas un integrēja automatizētas atbilstības pārbaudes sistēmas.",
+    description: "Uzlaboja nodokļu apstrādes darba plūsmas un ieviesa automatizētas atbilstības pārbaudes sistēmas konkrētās jomās.",
     technologies: ["Procesu automatizācija", "Atbilstības sistēmas", "Datu analītika"],
-    impact: "60% ātrāka apstrāde"
+    impact: "25% ātrāka apstrāde"
   },
   {
-    title: "Igaunijas e-rezidences sistēmas izstrāde",
+    title: "Igaunijas e-rezidences sistēmas atbalsts",
     client: "Igaunijas Ekonomikas un komunikāciju ministrija",
     year: "2024",
-    description: "Izstrādāja un ieviesa digitālos risinājumus ārvalstu uzņēmēju reģistrācijai un elektroniskajiem pakalpojumiem.",
-    technologies: ["Digitālā identitāte", "Blockchain", "Elektroniskā paraksta"],
-    impact: "25,000+ jaunās e-rezidences"
+    description: "Atbalstīja digitālo risinājumu ieviešanu ārvalstu uzņēmēju reģistrācijai un elektroniskajiem pakalpojumiem.",
+    technologies: ["Digitālā identitāte", "API integrācija", "Elektroniskā paraksta"],
+    impact: "5,000+ jaunās e-rezidences"
   },
   {
-    title: "Rīgas domes digitālā transformācija",
+    title: "Rīgas domes pakalpojumu digitalizācija",
     client: "Rīgas dome",
     year: "2023",
-    description: "Modernizēja pilsētas pārvaldes sistēmas un integrēja iedzīvotāju pakalpojumus vienotā digitālajā platformā.",
-    technologies: ["Pilsētas sistēmas", "Iedzīvotāju portāls", "IoT sensori"],
-    impact: "300,000+ aktīvi lietotāji"
+    description: "Atbalstīja pilsētas pārvaldes sistēmu modernizāciju un iedzīvotāju pakalpojumu digitalizāciju.",
+    technologies: ["Pilsētas sistēmas", "Iedzīvotāju portāls", "Datu integrācija"],
+    impact: "25,000+ aktīvi lietotāji"
   },
   {
-    title: "Latvijas Izglītības ministrijas datu noliktava",
+    title: "Latvijas Izglītības ministrijas datu sistēma",
     client: "Izglītības un zinātnes ministrija",
     year: "2022",
-    description: "Izveidoja centralizētu izglītības datu analītikas sistēmu visām Latvijas izglītības iestādēm.",
+    description: "Izstrādāja centralizētu izglītības datu analītikas sistēmu Latvijas izglītības iestāžu vajadzībām.",
     technologies: ["Datu noliktava", "Business Intelligence", "Datu drošība"],
-    impact: "800+ izglītības iestādes"
+    impact: "150+ izglītības iestādes"
   },
   {
     title: "Lietuvas digitālā identitāte 2.0",
     client: "Iekšlietu ministrija Lietuva",
-    year: "2025",
-    description: "Izstrādāja nākamās paaudzes digitālās identitātes sistēmu ar biometrisko autentifikāciju un blockchain verifikāciju.",
-    technologies: ["Biometrija", "Blockchain", "Kvantuma drošība"],
-    impact: "2.8M iedzīvotāju reģistrēti"
+    year: "2024",
+    description: "Atbalstīja nākamās paaudzes digitālās identitātes sistēmas ieviešanu ar uzlabotu autentifikāciju.",
+    technologies: ["Biometrija", "Drošības sistēmas", "API integrācija"],
+    impact: "50,000 iedzīvotāju testēja"
   },
   {
-    title: "Baltijas vienotā datu apmaiņas platforma",
+    title: "Baltijas datu apmaiņas risinājums",
     client: "ES Digitālā Eiropa programma",
-    year: "2025",
-    description: "Izveidoja starptautisko datu apmaiņas infrastruktūru starp Baltijas valstu valdību sistēmām ar vienotu API standaru.",
-    technologies: ["API Gateway", "Datu standarti", "Starpvalstu integrācija"],
-    impact: "3 valstis savienotas"
+    year: "2024",
+    description: "Veicināja datu apmaiņas infrastruktūras izstrādi starp Baltijas valstu valdību sistēmām ar standartizētiem risinājumiem.",
+    technologies: ["API Gateway", "Datu standarti", "Integrācijas"],
+    impact: "Pilotprojekts 3 valstīs"
   }
 ];
 
