@@ -24,6 +24,7 @@ const Contact = () => {
             <CardContent>
               <p className="text-muted-foreground mb-4">
                 Sazinieties par jauniem projektiem digitalizācijas jomā
+              </p>
               <p className="text-accent font-medium">
                 kontakti@datuservisi.lv
               </p>
