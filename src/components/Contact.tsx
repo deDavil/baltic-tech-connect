@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">Sazināties ar mums</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Gatavi optimizēt savas valdības tehnoloģiju sistēmas? Apspriedīsim jūsu projektu.
+            Gatavi digitalizēt un automatizēt dažādus procesus? Apspriedīsim jūsu projektu.
           </p>
         </div>
         
@@ -23,8 +23,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">
-                Sazinieties par projektu pieprasījumiem
-              </p>
+                Sazinieties par jauniem projektiem digitalizācijas jomā
               <p className="text-accent font-medium">
                 kontakti@datuservisi.lv
               </p>

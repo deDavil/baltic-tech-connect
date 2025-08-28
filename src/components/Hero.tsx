@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="animate-fade-in">
           <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-3 py-1 rounded-full text-sm mb-6">
             <MapPin className="w-4 h-4" />
-            Kalpojam Baltijas valstīs
+            Strādājam Baltijas valstīs
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Mēs kartējam, analizējam un optimizējam jūsu sistēmas un procesus. Atrodam piemērotas programmatūras un aparatūras risinājumus valsts pārvaldes organizācijām visā Baltijas reģionā.
+            Mēs kartējam, analizējam un optimizējam jūsu sistēmas un procesus. Atrodam piemērotas programmatūras un aparatūras risinājumus B2B un B2G organizācijām visā Baltijas reģionā.
           </p>
           
         </div>

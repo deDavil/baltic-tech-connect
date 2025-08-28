@@ -5,22 +5,22 @@ const services = [
   {
     icon: Map,
     title: "Sistēmu kartēšana",
-    description: "Visaptveroša jūsu esošās tehnoloģiju infrastruktūras un biznesa procesu analīze un vizualizācija."
+    description: "Detalizēta jūsu esošās tehnoloģiju infrastruktūras un biznesa procesu analīze un vizualizācija."
   },
   {
     icon: Search,
     title: "Risinājumu izpēte",
-    description: "Optimālu programmatūras un aparatūras risinājumu identificēšana, kas pielāgoti jūsu specifiskajām valsts sektora vajadzībām."
+    description: "Optimālu programmatūras un aparatūras risinājumu identificēšana, kas pielāgota jūsu specifiskajām vajadzībām."
   },
   {
     icon: Cog,
     title: "Procesu optimizācija",
-    description: "Darba plūsmu racionalizēšana un efektivitātes uzlabošana ar stratēģisku tehnoloģiju integrāciju."
+    description: "Darba plūsmu optimizēšana un efektivitātes uzlabošana ar stratēģisku tehnoloģiju integrāciju."
   },
   {
     icon: Building2,
     title: "Ieviešanas atbalsts",
-    description: "Pilna cikla atbalsts risinājumu izvietošanai un integrācijai valsts pārvaldes organizācijās."
+    description: "Pilna cikla atbalsts risinājumu izvietošanai un integrācijai organizācijas infrastruktūrā."
   }
 ];
 

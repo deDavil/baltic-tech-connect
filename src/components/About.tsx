@@ -36,23 +36,23 @@ const About = () => {
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">Par Datu Servisi</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Mēs esam specializēts tehnoloģiju integrācijas uzņēmums, kas fokusējas uz valdības sektoru visā Baltijas reģionā. Mūsu mazā ekspertu komanda saprot publiskā sektora tehnoloģiju transformācijas unikālos izaicinājumus.
+              Mēs esam specializēts tehnoloģiju integrācijas uzņēmums, kas fokusējas uz B2G un B2B sektoriem visā Baltijas reģionā. Mūsu mazā ekspertu komanda saprot publiskā sektora tehnoloģiju transformācijas unikālos izaicinājumus.
             </p>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Ar dziļu ekspertīzi sistēmu analīzē, procesu kartēšanā un risinājumu ieviešanā, mēs palīdzam valdības organizācijām modernizēt savu tehnoloģiju infrastruktūru efektīvi un droši.
+              Ar dziļu ekspertīzi sistēmu analīzē, procesu kartēšanā un risinājumu ieviešanā, mēs palīdzam organizācijām modernizēt savu tehnoloģiju infrastruktūru efektīvi un droši.
             </p>
             <div className="space-y-3">
               <div className="flex items-center text-muted-foreground">
                 <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                B2G sektora specializācija
+                B2G un B2B sektora specializācija
               </div>
               <div className="flex items-center text-muted-foreground">
                 <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                Reģionāla Baltijas ekspertīze
+                Baltijas tirgus ekspertīze
               </div>
               <div className="flex items-center text-muted-foreground">
                 <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                Agilā, fokusētā komandas pieeja
+                Ātra un fokusēta komandas pieeja
               </div>
             </div>
           </div>
