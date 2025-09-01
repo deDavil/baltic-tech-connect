@@ -10,7 +10,7 @@ const Footer = () => {
             <span className="text-xl font-bold text-foreground">Datu Servisi</span>
           </div>
           <p className="text-muted-foreground mb-4">
-            Specializēta tehnoloģiju integrācija B2B un B2G organizācijām visā Baltijas reģionā.
+            Specializēta tehnoloģiju integrācija B2B un organizācijām visā Baltijas reģionā.
           </p>
         </div>
         
