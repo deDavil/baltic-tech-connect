@@ -27,10 +27,9 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <button 
           onClick={handleLogoClick}
-          className="flex items-center space-x-2 hover:opacity-80 transition-opacity cursor-pointer"
+          className="flex items-center hover:opacity-80 transition-opacity cursor-pointer"
         >
           <img src={logo} alt="Datu Servisi logo" className="w-8 h-8" />
-          <span className="text-xl font-bold text-foreground">Datu Servisi</span>
         </button>
         
         <nav className="hidden md:flex items-center space-x-8">
