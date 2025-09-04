@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const location = useLocation();
@@ -28,7 +29,7 @@ const Header = () => {
           onClick={handleLogoClick}
           className="flex items-center space-x-2 hover:opacity-80 transition-opacity cursor-pointer"
         >
-          <div className="w-8 h-8 bg-gradient-primary rounded-lg"></div>
+          <img src={logo} alt="Datu Servisi logo" className="w-8 h-8" />
           <span className="text-xl font-bold text-foreground">Datu Servisi</span>
         </button>
         
