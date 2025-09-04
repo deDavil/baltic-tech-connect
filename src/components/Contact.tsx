@@ -26,7 +26,7 @@ const Contact = () => {
                 Sazinieties par jauniem projektiem digitalizācijas jomā
               </p>
               <p className="text-accent font-medium">
-                kontakti@datuservisi.lv
+                birojs@datuservisi.lv
               </p>
             </CardContent>
           </Card>
