@@ -25,9 +25,12 @@ const Contact = () => {
               <p className="text-muted-foreground mb-4">
                 Sazinieties par jauniem projektiem digitalizācijas jomā
               </p>
-              <p className="text-accent font-medium">
-                birojs@datuservisi.lv
-              </p>
+              <a 
+                href="mailto:birojs@datuservisi.eu" 
+                className="text-accent font-medium hover:underline"
+              >
+                birojs@datuservisi.eu
+              </a>
             </CardContent>
           </Card>
         </div>

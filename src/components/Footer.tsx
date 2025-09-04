@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="max-w-md">
           <div className="flex items-center space-x-2 mb-4">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg"></div>
+            <img src={logo} alt="Datu Servisi logo" className="w-8 h-8" />
             <span className="text-xl font-bold text-foreground">Datu Servisi</span>
           </div>
           <p className="text-muted-foreground mb-4">
