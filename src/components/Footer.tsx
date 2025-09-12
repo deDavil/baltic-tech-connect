@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator";
+import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -20,8 +21,8 @@ const Footer = () => {
             © 2025 Datu Servisi. Visas tiesības aizsargātas.
           </p>
           <div className="flex space-x-6 text-sm text-muted-foreground mt-4 md:mt-0">
-            <a href="/privatuma-politika" className="hover:text-foreground transition-colors">Privātuma politika</a>
-            <a href="/pakalpojumu-noteikumi" className="hover:text-foreground transition-colors">Pakalpojumu noteikumi</a>
+            <Link to="/privatuma-politika" className="hover:text-foreground transition-colors">Privātuma politika</Link>
+            <Link to="/pakalpojumu-noteikumi" className="hover:text-foreground transition-colors">Pakalpojumu noteikumi</Link>
           </div>
         </div>
       </div>
