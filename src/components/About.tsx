@@ -4,9 +4,9 @@ import { Users2, Award, Globe, Shield } from "lucide-react";
 const stats = [
   {
     icon: Users2,
-    value: "<10",
-    label: "Ekspertu komandas locekļi",
-    description: "Fokusēti, specializēti profesionāļi"
+    value: "80+",
+    label: "Gadi pieredzes kopā",
+    description: "IT sistēmu arhitektūrā un integrācijā"
   },
   {
     icon: Globe,
